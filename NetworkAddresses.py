@@ -31,6 +31,7 @@ e = random.randint(1,32)
 given_decimal_address = f"{a}.{b}.{c}.{d}/{e}"
 
 # Convert the IP adddress to binary.
+# The '08' specifies that each octet should be 8 bits long.
 given_binary_address = f"{a:08b}{b:08b}{c:08b}{d:08b}"
 
 # Seperate binary IP address to network and host portions.
@@ -63,3 +64,4 @@ print("First Host Address:", decimal_first_host)
 print("Last Host Address:", decimal_last_host)
 
 #SoliDeoGloria
+
