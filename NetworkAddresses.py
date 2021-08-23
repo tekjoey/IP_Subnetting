@@ -11,7 +11,7 @@ For help solving subnetting questions, check out Professor Messor on YouTube
 import random
 
 def from_long_to_dot_dec(long_address):
-    '''Takes a 32 bit binary IP address and converts it to doted decimal notation. Returns a string'''
+    '''Takes a 32 bit binary IP address and converts it to doted decimal notation. Returns a string.'''
     long_a = long_address[:8]
     long_b = long_address[8:16]
     long_c = long_address[16:24]
